@@ -12,7 +12,9 @@ RUN npm install --loglevel=error
 # Bundle app source into container
 COPY main.js .
 ADD /public/ public/
-ADD /video/ video/
+
+#ADD /video/ video/
+RUN mkdir video
 
 # Port exposed
 EXPOSE 8001
