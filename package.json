@@ -1,0 +1,25 @@
+{
+  "name": "video-stream",
+  "version": "1.0.0",
+  "description": "Stream Video Files with NodeJS Express",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kori2000/video-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kori2000/video-stream/issues"
+  },
+  "homepage": "https://github.com/kori2000/video-stream#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
